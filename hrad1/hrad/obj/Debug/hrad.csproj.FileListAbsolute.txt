@@ -1,0 +1,11 @@
+H:\programovani\3 ročník\hrad\hrad\bin\Debug\hrad.exe.config
+H:\programovani\3 ročník\hrad\hrad\bin\Debug\hrad.exe
+H:\programovani\3 ročník\hrad\hrad\bin\Debug\hrad.pdb
+H:\programovani\3 ročník\hrad\hrad\obj\Debug\hrad.csproj.AssemblyReference.cache
+H:\programovani\3 ročník\hrad\hrad\obj\Debug\hrad.csproj.SuggestedBindingRedirects.cache
+H:\programovani\3 ročník\hrad\hrad\obj\Debug\hrad.Form1.resources
+H:\programovani\3 ročník\hrad\hrad\obj\Debug\hrad.Properties.Resources.resources
+H:\programovani\3 ročník\hrad\hrad\obj\Debug\hrad.csproj.GenerateResource.cache
+H:\programovani\3 ročník\hrad\hrad\obj\Debug\hrad.csproj.CoreCompileInputs.cache
+H:\programovani\3 ročník\hrad\hrad\obj\Debug\hrad.exe
+H:\programovani\3 ročník\hrad\hrad\obj\Debug\hrad.pdb

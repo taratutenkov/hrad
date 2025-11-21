@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SQLiteDemo
 {
-    class Program
+    internal class Class1
     {
 
         
@@ -30,13 +30,13 @@ namespace SQLiteDemo
             return sqlite_conn;
         }
 
-        static void CreateTable(SQLiteConnection conn)
+        public void CreateTable(SQLiteConnection conn)
         {
 
             SQLiteCommand sqlite_cmd;
-            string Createsql = @"CREATE TABLE prohlidky
+            string Createsql = @"CREATE TABLE IF NOT EXISTS prohlidky
                (id INTEGER, okruh INT, cas INT, nastevnici INT)";
-           string Createsql1 = @"CREATE TABLE vstupenky
+           string Createsql1 = @"CREATE TABLE IF NOT EXISTS vstupenky
             (id INTEGER, okruh INT, cas INT, navstevnici INT, cena INT)";
            sqlite_cmd = conn.CreateCommand();
             sqlite_cmd.CommandText = Createsql;
@@ -45,7 +45,7 @@ namespace SQLiteDemo
             sqlite_cmd.ExecuteNonQuery();
 
         }
-        static void InsertProhlidky(SQLiteConnection conn, int okruh, int cas, int navstevnici)
+        public void InsertProhlidky(SQLiteConnection conn, int okruh, int cas, int navstevnici)
         {
             SQLiteCommand sqlite_cmd;
             sqlite_cmd = conn.CreateCommand();
@@ -55,7 +55,7 @@ namespace SQLiteDemo
             
 
         }
-        static void InsertVstupenky(SQLiteConnection conn, int okruh, int cas, int navstevnici, int cena)
+        public void InsertVstupenky(SQLiteConnection conn, int okruh, int cas, int navstevnici, int cena)
         {
             SQLiteCommand sqlite_cmd;
             sqlite_cmd = conn.CreateCommand();
@@ -66,7 +66,7 @@ namespace SQLiteDemo
 
         }
 
-        static void ReadProhlidky(SQLiteConnection conn ,int okruh,int cas, int nastevnici)
+        public void ReadProhlidky(SQLiteConnection conn)
         {
             SQLiteDataReader sqlite_datareader;
             SQLiteCommand sqlite_cmd;
@@ -77,7 +77,7 @@ namespace SQLiteDemo
             while (sqlite_datareader.Read())
             {
                 string myreader = sqlite_datareader.GetString(0);
-                Console.WriteLine(myreader);
+               
             }
             
         }

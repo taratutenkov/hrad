@@ -43,10 +43,12 @@ namespace hrad
 
         private void zobrazitProhlidky()
         {
-            DataTable table = new DataTable();
-            table.Columns.Add("Čas", typeof(int));
-            table.Columns.Add("Okruh", typeof(int));
-            table.Columns.Add("Volná místa", typeof(int));
+         
+            dataGridView1.Columns.Add("Čas", "cas");
+            dataGridView1.Columns.Add("Okruh", "okruh");
+            dataGridView1.Columns.Add("Volná místa", "mista");
+            List<string> tab = new List<string>();
+
 
         }
 

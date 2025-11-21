@@ -9,3 +9,17 @@ H:\programovani\3 ročník\hrad\hrad\obj\Debug\hrad.csproj.GenerateResource.cach
 H:\programovani\3 ročník\hrad\hrad\obj\Debug\hrad.csproj.CoreCompileInputs.cache
 H:\programovani\3 ročník\hrad\hrad\obj\Debug\hrad.exe
 H:\programovani\3 ročník\hrad\hrad\obj\Debug\hrad.pdb
+H:\programovani\3 ročník\hrad pravy\hrad1\hrad\bin\Debug\hrad.exe.config
+H:\programovani\3 ročník\hrad pravy\hrad1\hrad\bin\Debug\hrad.exe
+H:\programovani\3 ročník\hrad pravy\hrad1\hrad\bin\Debug\hrad.pdb
+H:\programovani\3 ročník\hrad pravy\hrad1\hrad\bin\Debug\System.Data.SQLite.dll
+H:\programovani\3 ročník\hrad pravy\hrad1\hrad\bin\Debug\System.Data.SQLite.xml
+H:\programovani\3 ročník\hrad pravy\hrad1\hrad\obj\Debug\hrad.csproj.AssemblyReference.cache
+H:\programovani\3 ročník\hrad pravy\hrad1\hrad\obj\Debug\hrad.csproj.SuggestedBindingRedirects.cache
+H:\programovani\3 ročník\hrad pravy\hrad1\hrad\obj\Debug\hrad.Form1.resources
+H:\programovani\3 ročník\hrad pravy\hrad1\hrad\obj\Debug\hrad.Properties.Resources.resources
+H:\programovani\3 ročník\hrad pravy\hrad1\hrad\obj\Debug\hrad.csproj.GenerateResource.cache
+H:\programovani\3 ročník\hrad pravy\hrad1\hrad\obj\Debug\hrad.csproj.CoreCompileInputs.cache
+H:\programovani\3 ročník\hrad pravy\hrad1\hrad\obj\Debug\hrad.csproj.CopyComplete
+H:\programovani\3 ročník\hrad pravy\hrad1\hrad\obj\Debug\hrad.exe
+H:\programovani\3 ročník\hrad pravy\hrad1\hrad\obj\Debug\hrad.pdb

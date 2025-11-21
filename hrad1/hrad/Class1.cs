@@ -17,7 +17,7 @@ namespace SQLiteDemo
 
             SQLiteConnection sqlite_conn;
             // Create a new database connection:
-            sqlite_conn = new SQLiteConnection("Data Source=database.db; Version = 3; New = True; Compress = True; ");
+            sqlite_conn = new SQLiteConnection("Data Source=database1.db; Version = 3; New = True; Compress = True; ");
            // Open the connection:
          try
             {
@@ -35,7 +35,7 @@ namespace SQLiteDemo
 
             SQLiteCommand sqlite_cmd;
             string Createsql = @"CREATE TABLE IF NOT EXISTS prohlidky
-               (id INTEGER, okruh INT, cas INT, nastevnici INT)";
+               (id INTEGER, okruh INT, cas INT, navstevnici INT)";
            string Createsql1 = @"CREATE TABLE IF NOT EXISTS vstupenky
             (id INTEGER, okruh INT, cas INT, navstevnici INT, cena INT)";
            sqlite_cmd = conn.CreateCommand();
@@ -66,20 +66,24 @@ namespace SQLiteDemo
 
         }
 
-        public void ReadProhlidky(SQLiteConnection conn)
+        public List<string> ReadProhlidky(SQLiteConnection conn)
         {
             SQLiteDataReader sqlite_datareader;
             SQLiteCommand sqlite_cmd;
             sqlite_cmd = conn.CreateCommand();
             sqlite_cmd.CommandText = "SELECT * FROM prohlidky";
-
+            List<string> tabulka = new List<string>();
             sqlite_datareader = sqlite_cmd.ExecuteReader();
+            string radek = "";
             while (sqlite_datareader.Read())
             {
-                string myreader = sqlite_datareader.GetString(0);
-               
+                radek = sqlite_datareader.GetInt16(1).ToString()+";";
+                radek += sqlite_datareader.GetInt16(2).ToString()+";";
+                radek += sqlite_datareader.GetInt16(3).ToString();
+                tabulka.Add(radek);
+                radek = "";
             }
-            
+            return (tabulka);
         }
     }
 }

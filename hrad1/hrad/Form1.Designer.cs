@@ -48,9 +48,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Mistral", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(429, 307);
+            this.button1.Location = new System.Drawing.Point(429, 334);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 44);
+            this.button1.Size = new System.Drawing.Size(102, 64);
             this.button1.TabIndex = 0;
             this.button1.Text = "Výběr";
             this.button1.UseVisualStyleBackColor = true;
@@ -59,9 +60,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Mistral", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2.Location = new System.Drawing.Point(429, 378);
+            this.button2.Location = new System.Drawing.Point(429, 446);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(102, 44);
+            this.button2.Size = new System.Drawing.Size(102, 64);
             this.button2.TabIndex = 1;
             this.button2.Text = "Platba";
             this.button2.UseVisualStyleBackColor = true;
@@ -70,7 +72,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(426, 27);
+            this.label1.Location = new System.Drawing.Point(426, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 18);
             this.label1.TabIndex = 2;
@@ -80,7 +82,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(426, 58);
+            this.label2.Location = new System.Drawing.Point(426, 85);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(65, 18);
             this.label2.TabIndex = 3;
@@ -90,7 +92,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(426, 92);
+            this.label3.Location = new System.Drawing.Point(426, 134);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 18);
             this.label3.TabIndex = 4;
@@ -100,7 +102,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(584, 27);
+            this.label4.Location = new System.Drawing.Point(584, 39);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 18);
             this.label4.TabIndex = 5;
@@ -110,7 +112,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(584, 58);
+            this.label5.Location = new System.Drawing.Point(584, 85);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 18);
             this.label5.TabIndex = 6;
@@ -120,7 +122,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label6.Location = new System.Drawing.Point(584, 92);
+            this.label6.Location = new System.Drawing.Point(584, 134);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(60, 18);
             this.label6.TabIndex = 7;
@@ -130,7 +132,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label7.Location = new System.Drawing.Point(426, 161);
+            this.label7.Location = new System.Drawing.Point(426, 235);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(61, 18);
             this.label7.TabIndex = 8;
@@ -139,17 +141,20 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(510, 162);
+            this.comboBox1.Location = new System.Drawing.Point(510, 237);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(55, 21);
+            this.comboBox1.Size = new System.Drawing.Size(55, 27);
             this.comboBox1.TabIndex = 9;
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(200, 60);
+            this.radioButton1.Font = new System.Drawing.Font("Mistral", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioButton1.Location = new System.Drawing.Point(200, 88);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(64, 17);
+            this.radioButton1.Size = new System.Drawing.Size(87, 30);
             this.radioButton1.TabIndex = 10;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "1. okruh";
@@ -158,9 +163,11 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(200, 166);
+            this.radioButton2.Font = new System.Drawing.Font("Mistral", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioButton2.Location = new System.Drawing.Point(200, 243);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(64, 17);
+            this.radioButton2.Size = new System.Drawing.Size(87, 30);
             this.radioButton2.TabIndex = 11;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "2. okruh";
@@ -169,9 +176,11 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(200, 288);
+            this.radioButton3.Font = new System.Drawing.Font("Mistral", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.radioButton3.Location = new System.Drawing.Point(200, 421);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(64, 17);
+            this.radioButton3.Size = new System.Drawing.Size(87, 30);
             this.radioButton3.TabIndex = 12;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "3. okruh";
@@ -180,17 +189,18 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(696, 38);
+            this.dataGridView1.Location = new System.Drawing.Point(696, 56);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(466, 384);
+            this.dataGridView1.Size = new System.Drawing.Size(466, 454);
             this.dataGridView1.TabIndex = 13;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1194, 450);
+            this.BackColor = System.Drawing.Color.Silver;
+            this.ClientSize = new System.Drawing.Size(1194, 658);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton2);
@@ -205,7 +215,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.ForeColor = System.Drawing.Color.Green;
+            this.Font = new System.Drawing.Font("Mistral", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "hradecek_jirka_vlada";
             this.Load += new System.EventHandler(this.Form1_Load);

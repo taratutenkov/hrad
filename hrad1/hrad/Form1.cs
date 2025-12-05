@@ -45,8 +45,9 @@ namespace hrad
         private void zobrazitProhlidky()
         {
          
-            dataGridView1.Columns.Add("Čas", "cas");
+            
             dataGridView1.Columns.Add("Okruh", "okruh");
+            dataGridView1.Columns.Add("Čas", "cas");
             dataGridView1.Columns.Add("Volná místa", "mista");
             List<string> tab = new List<string>();
             tab = pr.ReadProhlidky(sqlite_conn);

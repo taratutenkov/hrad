@@ -23,3 +23,17 @@ H:\programovani\3 ročník\hrad pravy\hrad1\hrad\obj\Debug\hrad.csproj.CoreCompi
 H:\programovani\3 ročník\hrad pravy\hrad1\hrad\obj\Debug\hrad.csproj.CopyComplete
 H:\programovani\3 ročník\hrad pravy\hrad1\hrad\obj\Debug\hrad.exe
 H:\programovani\3 ročník\hrad pravy\hrad1\hrad\obj\Debug\hrad.pdb
+H:\3 roč\programování\hrad doopravdy\hrad1\hrad\bin\Debug\hrad.exe.config
+H:\3 roč\programování\hrad doopravdy\hrad1\hrad\bin\Debug\hrad.exe
+H:\3 roč\programování\hrad doopravdy\hrad1\hrad\bin\Debug\hrad.pdb
+H:\3 roč\programování\hrad doopravdy\hrad1\hrad\bin\Debug\System.Data.SQLite.dll
+H:\3 roč\programování\hrad doopravdy\hrad1\hrad\bin\Debug\System.Data.SQLite.xml
+H:\3 roč\programování\hrad doopravdy\hrad1\hrad\obj\Debug\hrad.csproj.AssemblyReference.cache
+H:\3 roč\programování\hrad doopravdy\hrad1\hrad\obj\Debug\hrad.csproj.SuggestedBindingRedirects.cache
+H:\3 roč\programování\hrad doopravdy\hrad1\hrad\obj\Debug\hrad.Form1.resources
+H:\3 roč\programování\hrad doopravdy\hrad1\hrad\obj\Debug\hrad.Properties.Resources.resources
+H:\3 roč\programování\hrad doopravdy\hrad1\hrad\obj\Debug\hrad.csproj.GenerateResource.cache
+H:\3 roč\programování\hrad doopravdy\hrad1\hrad\obj\Debug\hrad.csproj.CoreCompileInputs.cache
+H:\3 roč\programování\hrad doopravdy\hrad1\hrad\obj\Debug\hrad.csproj.CopyComplete
+H:\3 roč\programování\hrad doopravdy\hrad1\hrad\obj\Debug\hrad.exe
+H:\3 roč\programování\hrad doopravdy\hrad1\hrad\obj\Debug\hrad.pdb

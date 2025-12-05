@@ -28,6 +28,7 @@ namespace hrad
             sqlite_conn= pr.CreateConnection();
             pr.CreateTable(sqlite_conn);
             vytvoritProhlidky();
+            zobrazitProhlidky();
         }
 
         private void vytvoritProhlidky()
@@ -48,13 +49,19 @@ namespace hrad
             dataGridView1.Columns.Add("Okruh", "okruh");
             dataGridView1.Columns.Add("Volná místa", "mista");
             List<string> tab = new List<string>();
+            tab = pr.ReadProhlidky(sqlite_conn);
+            foreach (string radek in tab)
+            {
+                string[] data = radek.Split(';');
+                dataGridView1.Rows.Add(data);
+            }
 
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 

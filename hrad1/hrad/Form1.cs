@@ -48,6 +48,7 @@ namespace hrad
             
             dataGridView1.Columns.Add("Okruh", "okruh");
             dataGridView1.Columns.Add("Čas", "cas");
+
             dataGridView1.Columns.Add("Volná místa", "mista");
             List<string> tab = new List<string>();
             tab = pr.ReadProhlidky(sqlite_conn);
@@ -62,7 +63,7 @@ namespace hrad
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            MessageBox.Show("ahoj");
         }
     }
 
